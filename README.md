@@ -1,2 +1,2 @@
 # atlantik
-PHP School project To book boat crossings
+PHP & Qt/C++ School project To book boat crossings
