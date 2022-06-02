@@ -240,7 +240,7 @@ CREATE TABLE `Reservation` (
   `numeroReservation` bigint(20) NOT NULL,
   `nomReservation` varchar(25) DEFAULT NULL,
   `adresseReservation` varchar(75) DEFAULT NULL,
-  `codePostalReservation` int(11) DEFAULT NULL,
+  `codePostalReservation` varchar(5) DEFAULT NULL,
   `villeReservation` varchar(45) DEFAULT NULL,
   `montantReservation` float DEFAULT NULL,
   `numeroTraversee` int(11) NOT NULL,
@@ -256,7 +256,7 @@ CREATE TABLE `Reservation` (
 
 LOCK TABLES `Reservation` WRITE;
 /*!40000 ALTER TABLE `Reservation` DISABLE KEYS */;
-INSERT INTO `Reservation` VALUES (9181458911,'TIPREZ','15 rue de l\'industrie',19290,'PEYRELEVADE',209.1,541201),(9181458912,'Dupont','2 Rue des Mimosas',5000,'Gap',268.1,541201);
+INSERT INTO `Reservation` VALUES (9181458911,'TIPREZ','15 rue de l\'industrie','19290','PEYRELEVADE',209.1,541201),(9181458912,'Dupont','2 Rue des Mimosas','05000','Gap',268.1,541201);
 /*!40000 ALTER TABLE `Reservation` ENABLE KEYS */;
 UNLOCK TABLES;
 
