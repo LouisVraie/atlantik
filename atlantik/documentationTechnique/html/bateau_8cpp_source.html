@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Atlantik:  Fichier source de bateau.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logoAtlantik.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Atlantik
+   &#160;<span id="projectnumber">1.0 beta 1</span>
+   </div>
+   <div id="projectbrief">Création de boîte de dialogue PDF des Bateaux Voyageur de la société Atlantik</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4e6b1eba97a550fe8979f4a83bed0082.html">atlantik</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">bateau.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="bateau_8cpp.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="bateau_8h.html">bateau.h</a>&quot;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_bateau.html#a5ea29ce02b632a199385200248a05581">   11</a></span>&#160;<a class="code" href="class_bateau.html#a9b2027f6f3a71d6b05209e22b928db00">Bateau::Bateau</a>(QString unId,QString unNom,<span class="keywordtype">float</span> uneLongueur,<span class="keywordtype">float</span> uneLargeur)</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="class_bateau.html#acf710114558ee740be62211df06133e1">idBat</a> = unId;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="class_bateau.html#a2d01e3edfc60cb9111a5f4f11b2813b3">nomBat</a> = unNom;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="class_bateau.html#a6c1f8f9f5bb656fae6ce59bcfa6fe8aa">longueurBat</a> = uneLongueur;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="class_bateau.html#ace3ced3b9bb6506a913645230b85022c">largeurBat</a> = uneLargeur;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_bateau.html#a9b2027f6f3a71d6b05209e22b928db00">   23</a></span>&#160;<a class="code" href="class_bateau.html#a9b2027f6f3a71d6b05209e22b928db00">Bateau::Bateau</a>()</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="comment">//constructeur vide</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_bateau.html#a392f6a45649a2a35186dfcd1ca58eddc">   37</a></span>&#160;QString <a class="code" href="class_bateau.html#a392f6a45649a2a35186dfcd1ca58eddc">Bateau::versChaine</a>()</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    QString resultat;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    QString sautLigne = <span class="stringliteral">&quot;&lt;br&gt;&quot;</span>;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    resultat = <span class="stringliteral">&quot;Nom du bateau : &quot;</span>+<a class="code" href="class_bateau.html#a2d01e3edfc60cb9111a5f4f11b2813b3">nomBat</a>+sautLigne;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    resultat += <span class="stringliteral">&quot;Longueur : &quot;</span>+QString::number(<a class="code" href="class_bateau.html#a6c1f8f9f5bb656fae6ce59bcfa6fe8aa">longueurBat</a>)+<span class="stringliteral">&quot; mètres&quot;</span>+sautLigne;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    resultat += <span class="stringliteral">&quot;Largeur : &quot;</span>+QString::number(<a class="code" href="class_bateau.html#ace3ced3b9bb6506a913645230b85022c">largeurBat</a>)+<span class="stringliteral">&quot; mètres&quot;</span>+sautLigne;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> resultat;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div><div class="ttc" id="class_bateau_html_a6c1f8f9f5bb656fae6ce59bcfa6fe8aa"><div class="ttname"><a href="class_bateau.html#a6c1f8f9f5bb656fae6ce59bcfa6fe8aa">Bateau::longueurBat</a></div><div class="ttdeci">float longueurBat</div><div class="ttdef"><b>Definition:</b> <a href="bateau_8h_source.html#l00019">bateau.h:19</a></div></div>
+<div class="ttc" id="bateau_8h_html"><div class="ttname"><a href="bateau_8h.html">bateau.h</a></div></div>
+<div class="ttc" id="class_bateau_html_a2d01e3edfc60cb9111a5f4f11b2813b3"><div class="ttname"><a href="class_bateau.html#a2d01e3edfc60cb9111a5f4f11b2813b3">Bateau::nomBat</a></div><div class="ttdeci">QString nomBat</div><div class="ttdef"><b>Definition:</b> <a href="bateau_8h_source.html#l00018">bateau.h:18</a></div></div>
+<div class="ttc" id="class_bateau_html_acf710114558ee740be62211df06133e1"><div class="ttname"><a href="class_bateau.html#acf710114558ee740be62211df06133e1">Bateau::idBat</a></div><div class="ttdeci">QString idBat</div><div class="ttdef"><b>Definition:</b> <a href="bateau_8h_source.html#l00018">bateau.h:18</a></div></div>
+<div class="ttc" id="class_bateau_html_a392f6a45649a2a35186dfcd1ca58eddc"><div class="ttname"><a href="class_bateau.html#a392f6a45649a2a35186dfcd1ca58eddc">Bateau::versChaine</a></div><div class="ttdeci">QString versChaine()</div><div class="ttdoc">Bateau::versChaine Cette méthode publique renvoie la chaîne de caractère utilisée pour décrire le bat...</div><div class="ttdef"><b>Definition:</b> <a href="bateau_8cpp_source.html#l00037">bateau.cpp:37</a></div></div>
+<div class="ttc" id="class_bateau_html_a9b2027f6f3a71d6b05209e22b928db00"><div class="ttname"><a href="class_bateau.html#a9b2027f6f3a71d6b05209e22b928db00">Bateau::Bateau</a></div><div class="ttdeci">Bateau()</div><div class="ttdoc">Bateau::Bateau Constructeur vide de la classe Bateau nécessaire car il y a des vecteurs de Bateau...</div><div class="ttdef"><b>Definition:</b> <a href="bateau_8cpp_source.html#l00023">bateau.cpp:23</a></div></div>
+<div class="ttc" id="class_bateau_html_ace3ced3b9bb6506a913645230b85022c"><div class="ttname"><a href="class_bateau.html#ace3ced3b9bb6506a913645230b85022c">Bateau::largeurBat</a></div><div class="ttdeci">float largeurBat</div><div class="ttdef"><b>Definition:</b> <a href="bateau_8h_source.html#l00019">bateau.h:19</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

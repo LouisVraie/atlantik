@@ -1,0 +1,5 @@
+<map id="Passerelle::chargerLesEquipements" name="Passerelle::chargerLesEquipements">
+<area shape="rect" id="node2" href="$class_passerelle.html#a9f8cdd9d52d668bb33a5380324fb9c51" title="Passerelle::chargerLesBateauxVoyageurs Méthode statique publique qui permet de charger les différente..." alt="" coords="284,5,487,47"/>
+<area shape="rect" id="node3" href="$class_main_window.html#a6db0e3a1a7ce60c36d151d1ae618f16c" title="MainWindow::brochurePDF Méthode privée qui permet de créer une brochure PDF des BateauxVoyageur dans ..." alt="" coords="535,13,717,39"/>
+<area shape="rect" id="node4" href="$class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title="MainWindow::MainWindow Constructeur de la classe MainWindow qui permet de créer l&#39;application. " alt="" coords="765,13,945,39"/>
+</map>

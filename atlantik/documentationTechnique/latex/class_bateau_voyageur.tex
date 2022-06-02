@@ -1,0 +1,231 @@
+\hypertarget{class_bateau_voyageur}{}\section{Référence de la classe Bateau\+Voyageur}
+\label{class_bateau_voyageur}\index{Bateau\+Voyageur@{Bateau\+Voyageur}}
+
+
+La classe \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} C\textquotesingle{}est une dépendance de la classe \hyperlink{class_passerelle}{Passerelle} Chaque bateau voyageur dispose de 3 propriétés.  
+
+
+
+
+{\ttfamily \#include $<$bateauvoyageur.\+h$>$}
+
+
+
+Graphe d\textquotesingle{}héritage de Bateau\+Voyageur\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{class_bateau_voyageur__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Bateau\+Voyageur\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{class_bateau_voyageur__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_bateau_voyageur_ab2351c630bf3661b8273c66017c1ed72}{Bateau\+Voyageur} (Q\+String un\+Id, Q\+String un\+Nom, float une\+Longueur, float une\+Largeur, float une\+Vitesse, Q\+String une\+Image, Q\+Vector$<$ \hyperlink{class_equipement}{Equipement} $>$ une\+Coll\+Equip)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_bateau_voyageur_ab2351c630bf3661b8273c66017c1ed72}{Bateau\+Voyageur\+::\+Bateau\+Voyageur} Constructeur de la classe \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} qui permet de renseigner les propriétés privées du \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} ainsi que celles du \hyperlink{class_bateau}{Bateau} avec les valeurs passées en paramètres Le constructeur de \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} appelle le constructeur de \hyperlink{class_bateau}{Bateau}. \end{DoxyCompactList}\item 
+\hyperlink{class_bateau_voyageur_ac327b0101a2586190a3afcd639f146cc}{Bateau\+Voyageur} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_bateau_voyageur_ab2351c630bf3661b8273c66017c1ed72}{Bateau\+Voyageur\+::\+Bateau\+Voyageur} Constructeur vide de la classe \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} nécessaire car il y a des vecteurs de \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur}. \end{DoxyCompactList}\item 
+Q\+String \hyperlink{class_bateau_voyageur_a3fa14cf7db3a1a35457f1e0450d7e8b2}{vers\+Chaine} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_bateau_voyageur_a3fa14cf7db3a1a35457f1e0450d7e8b2}{Bateau\+Voyageur\+::vers\+Chaine} Méthode publique qui renvoie la chaîne de caractère utilisée pour décrire le bateau Cette méthode utilise la méthode \hyperlink{class_bateau_a392f6a45649a2a35186dfcd1ca58eddc}{Bateau\+::vers\+Chaine()}~\newline
+Exemple \+:~\newline
+Nom du bateau \+: Queen Mary~\newline
+Longueur \+: 14.\+5 mètres~\newline
+Largeur \+: 8.\+2 mètres~\newline
+Vitesse \+: 21 noeuds~\newline
+Liste des équipements du bateau \+:~\newline
+-\/ Accès Handicapé~\newline
+-\/ Bar. \end{DoxyCompactList}\item 
+Q\+String \hyperlink{class_bateau_voyageur_a3154786b2f572d0c2a2ac975757295eb}{get\+Image\+Bat\+Voy} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_bateau_voyageur_a3154786b2f572d0c2a2ac975757295eb}{Bateau\+Voyageur\+::get\+Image\+Bat\+Voy} Méthode publique qui renvoie le chemin qui permet d\textquotesingle{}atteindre l\textquotesingle{}image du bateau. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{class_bateau_voyageur_a245a2e10cb6264193306f728b0af04cb}{vitesse\+Bat\+Voy}
+\item 
+Q\+String \hyperlink{class_bateau_voyageur_aa00ee12fc973cf555a5b07cbdcf573a3}{image\+Bat\+Voy}
+\item 
+Q\+Vector$<$ \hyperlink{class_equipement}{Equipement} $>$ \hyperlink{class_bateau_voyageur_a570ffdd189b44025d2e8d88e5dcdb1e2}{les\+Equipements}
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+La classe \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} C\textquotesingle{}est une dépendance de la classe \hyperlink{class_passerelle}{Passerelle} Chaque bateau voyageur dispose de 3 propriétés. 
+
+\begin{DoxyAuthor}{Auteur}
+Louis Vraie 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+08/11/2021 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 beta 1 
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+G\+NU Public License 
+\end{DoxyCopyright}
+
+
+Définition à la ligne 18 du fichier bateauvoyageur.\+h.
+
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_bateau_voyageur_ab2351c630bf3661b8273c66017c1ed72}\label{class_bateau_voyageur_ab2351c630bf3661b8273c66017c1ed72}} 
+\index{Bateau\+Voyageur@{Bateau\+Voyageur}!Bateau\+Voyageur@{Bateau\+Voyageur}}
+\index{Bateau\+Voyageur@{Bateau\+Voyageur}!Bateau\+Voyageur@{Bateau\+Voyageur}}
+\subsubsection{\texorpdfstring{Bateau\+Voyageur()}{BateauVoyageur()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Bateau\+Voyageur\+::\+Bateau\+Voyageur (\begin{DoxyParamCaption}\item[{Q\+String}]{un\+Id,  }\item[{Q\+String}]{un\+Nom,  }\item[{float}]{une\+Longueur,  }\item[{float}]{une\+Largeur,  }\item[{float}]{une\+Vitesse,  }\item[{Q\+String}]{une\+Image,  }\item[{Q\+Vector$<$ \hyperlink{class_equipement}{Equipement} $>$}]{une\+Coll\+Equip }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_bateau_voyageur_ab2351c630bf3661b8273c66017c1ed72}{Bateau\+Voyageur\+::\+Bateau\+Voyageur} Constructeur de la classe \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} qui permet de renseigner les propriétés privées du \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} ainsi que celles du \hyperlink{class_bateau}{Bateau} avec les valeurs passées en paramètres Le constructeur de \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} appelle le constructeur de \hyperlink{class_bateau}{Bateau}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em un\+Id} & Q\+String Identifiant du bateau \\
+\hline
+{\em un\+Nom} & Q\+String Nom du bateau \\
+\hline
+{\em une\+Longueur} & float Longueur du bateau exprimée en mètres \\
+\hline
+{\em une\+Largeur} & float Largeur du bateau exprimée en mètres \\
+\hline
+{\em une\+Vitesse} & float Vitesse de croisière du bateau exprimée en noeuds \\
+\hline
+{\em une\+Image} & Q\+String Chemin pour atteindre l\textquotesingle{}image du bateau \\
+\hline
+{\em une\+Coll\+Equip} & Q\+Vector$<$\+Equipement$>$ Liste des équipements présents sur le bateau \\
+\hline
+\end{DoxyParams}
+
+
+Définition à la ligne 15 du fichier bateauvoyageur.\+cpp.
+
+\mbox{\Hypertarget{class_bateau_voyageur_ac327b0101a2586190a3afcd639f146cc}\label{class_bateau_voyageur_ac327b0101a2586190a3afcd639f146cc}} 
+\index{Bateau\+Voyageur@{Bateau\+Voyageur}!Bateau\+Voyageur@{Bateau\+Voyageur}}
+\index{Bateau\+Voyageur@{Bateau\+Voyageur}!Bateau\+Voyageur@{Bateau\+Voyageur}}
+\subsubsection{\texorpdfstring{Bateau\+Voyageur()}{BateauVoyageur()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Bateau\+Voyageur\+::\+Bateau\+Voyageur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_bateau_voyageur_ab2351c630bf3661b8273c66017c1ed72}{Bateau\+Voyageur\+::\+Bateau\+Voyageur} Constructeur vide de la classe \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} nécessaire car il y a des vecteurs de \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur}. 
+
+
+
+Définition à la ligne 29 du fichier bateauvoyageur.\+cpp.
+
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_bateau_voyageur_a3154786b2f572d0c2a2ac975757295eb}\label{class_bateau_voyageur_a3154786b2f572d0c2a2ac975757295eb}} 
+\index{Bateau\+Voyageur@{Bateau\+Voyageur}!get\+Image\+Bat\+Voy@{get\+Image\+Bat\+Voy}}
+\index{get\+Image\+Bat\+Voy@{get\+Image\+Bat\+Voy}!Bateau\+Voyageur@{Bateau\+Voyageur}}
+\subsubsection{\texorpdfstring{get\+Image\+Bat\+Voy()}{getImageBatVoy()}}
+{\footnotesize\ttfamily Q\+String Bateau\+Voyageur\+::get\+Image\+Bat\+Voy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_bateau_voyageur_a3154786b2f572d0c2a2ac975757295eb}{Bateau\+Voyageur\+::get\+Image\+Bat\+Voy} Méthode publique qui renvoie le chemin qui permet d\textquotesingle{}atteindre l\textquotesingle{}image du bateau. 
+
+\begin{DoxyReturn}{Renvoie}
+Q\+String Une chaîne de caractères qui renseigne le chemin d\textquotesingle{}accès de l\textquotesingle{}image du bateau 
+\end{DoxyReturn}
+
+
+Définition à la ligne 68 du fichier bateauvoyageur.\+cpp.
+
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bateau_voyageur_a3154786b2f572d0c2a2ac975757295eb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bateau_voyageur_a3fa14cf7db3a1a35457f1e0450d7e8b2}\label{class_bateau_voyageur_a3fa14cf7db3a1a35457f1e0450d7e8b2}} 
+\index{Bateau\+Voyageur@{Bateau\+Voyageur}!vers\+Chaine@{vers\+Chaine}}
+\index{vers\+Chaine@{vers\+Chaine}!Bateau\+Voyageur@{Bateau\+Voyageur}}
+\subsubsection{\texorpdfstring{vers\+Chaine()}{versChaine()}}
+{\footnotesize\ttfamily Q\+String Bateau\+Voyageur\+::vers\+Chaine (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_bateau_voyageur_a3fa14cf7db3a1a35457f1e0450d7e8b2}{Bateau\+Voyageur\+::vers\+Chaine} Méthode publique qui renvoie la chaîne de caractère utilisée pour décrire le bateau Cette méthode utilise la méthode \hyperlink{class_bateau_a392f6a45649a2a35186dfcd1ca58eddc}{Bateau\+::vers\+Chaine()}~\newline
+Exemple \+:~\newline
+Nom du bateau \+: Queen Mary~\newline
+Longueur \+: 14.\+5 mètres~\newline
+Largeur \+: 8.\+2 mètres~\newline
+Vitesse \+: 21 noeuds~\newline
+Liste des équipements du bateau \+:~\newline
+-\/ Accès Handicapé~\newline
+-\/ Bar. 
+
+\begin{DoxyReturn}{Renvoie}
+Q\+String Une chaîne de caractères sur plusieurs lignes qui renvoie toutes les informations associées à un bateau 
+\end{DoxyReturn}
+
+
+Définition à la ligne 48 du fichier bateauvoyageur.\+cpp.
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bateau_voyageur_a3fa14cf7db3a1a35457f1e0450d7e8b2_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bateau_voyageur_a3fa14cf7db3a1a35457f1e0450d7e8b2_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_bateau_voyageur_aa00ee12fc973cf555a5b07cbdcf573a3}\label{class_bateau_voyageur_aa00ee12fc973cf555a5b07cbdcf573a3}} 
+\index{Bateau\+Voyageur@{Bateau\+Voyageur}!image\+Bat\+Voy@{image\+Bat\+Voy}}
+\index{image\+Bat\+Voy@{image\+Bat\+Voy}!Bateau\+Voyageur@{Bateau\+Voyageur}}
+\subsubsection{\texorpdfstring{image\+Bat\+Voy}{imageBatVoy}}
+{\footnotesize\ttfamily Q\+String Bateau\+Voyageur\+::image\+Bat\+Voy\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Définition à la ligne 22 du fichier bateauvoyageur.\+h.
+
+\mbox{\Hypertarget{class_bateau_voyageur_a570ffdd189b44025d2e8d88e5dcdb1e2}\label{class_bateau_voyageur_a570ffdd189b44025d2e8d88e5dcdb1e2}} 
+\index{Bateau\+Voyageur@{Bateau\+Voyageur}!les\+Equipements@{les\+Equipements}}
+\index{les\+Equipements@{les\+Equipements}!Bateau\+Voyageur@{Bateau\+Voyageur}}
+\subsubsection{\texorpdfstring{les\+Equipements}{lesEquipements}}
+{\footnotesize\ttfamily Q\+Vector$<$\hyperlink{class_equipement}{Equipement}$>$ Bateau\+Voyageur\+::les\+Equipements\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Définition à la ligne 23 du fichier bateauvoyageur.\+h.
+
+\mbox{\Hypertarget{class_bateau_voyageur_a245a2e10cb6264193306f728b0af04cb}\label{class_bateau_voyageur_a245a2e10cb6264193306f728b0af04cb}} 
+\index{Bateau\+Voyageur@{Bateau\+Voyageur}!vitesse\+Bat\+Voy@{vitesse\+Bat\+Voy}}
+\index{vitesse\+Bat\+Voy@{vitesse\+Bat\+Voy}!Bateau\+Voyageur@{Bateau\+Voyageur}}
+\subsubsection{\texorpdfstring{vitesse\+Bat\+Voy}{vitesseBatVoy}}
+{\footnotesize\ttfamily float Bateau\+Voyageur\+::vitesse\+Bat\+Voy\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Définition à la ligne 21 du fichier bateauvoyageur.\+h.
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{bateauvoyageur_8h}{bateauvoyageur.\+h}\item 
+\hyperlink{bateauvoyageur_8cpp}{bateauvoyageur.\+cpp}\end{DoxyCompactItemize}

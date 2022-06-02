@@ -1,0 +1,146 @@
+\hypertarget{class_passerelle}{}\section{Référence de la classe Passerelle}
+\label{class_passerelle}\index{Passerelle@{Passerelle}}
+
+
+La classe \hyperlink{class_passerelle}{Passerelle} Elle est dépendante des classes \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} et \hyperlink{class_equipement}{Equipement}.  
+
+
+
+
+{\ttfamily \#include $<$passerelle.\+h$>$}
+
+
+
+Graphe de collaboration de Passerelle\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{class_passerelle__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_passerelle_ab70aa7f8273e11735416362091d6c5f4}{Passerelle} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_passerelle_ab70aa7f8273e11735416362091d6c5f4}{Passerelle\+::\+Passerelle} Constructeur vide de la classe \hyperlink{class_passerelle}{Passerelle}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static Q\+Vector$<$ \hyperlink{class_equipement}{Equipement} $>$ \hyperlink{class_passerelle_a7388ba173e23ebf4ceb26d878e9503b3}{charger\+Les\+Equipements} (int un\+Id\+Bateau)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_passerelle_a7388ba173e23ebf4ceb26d878e9503b3}{Passerelle\+::charger\+Les\+Equipements} Méthode statique publique qui permet de charger les différents équipements d\textquotesingle{}un bateau avec son identifiant passé en paramètre. \end{DoxyCompactList}\item 
+static Q\+Vector$<$ \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} $>$ \hyperlink{class_passerelle_a9f8cdd9d52d668bb33a5380324fb9c51}{charger\+Les\+Bateaux\+Voyageurs} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_passerelle_a9f8cdd9d52d668bb33a5380324fb9c51}{Passerelle\+::charger\+Les\+Bateaux\+Voyageurs} Méthode statique publique qui permet de charger les différentes informations de tous les bateaux voyageurs. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+La classe \hyperlink{class_passerelle}{Passerelle} Elle est dépendante des classes \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} et \hyperlink{class_equipement}{Equipement}. 
+
+\begin{DoxyAuthor}{Auteur}
+Louis Vraie 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+08/11/2021 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 beta 1 
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+G\+NU Public License 
+\end{DoxyCopyright}
+
+
+Définition à la ligne 18 du fichier passerelle.\+h.
+
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_passerelle_ab70aa7f8273e11735416362091d6c5f4}\label{class_passerelle_ab70aa7f8273e11735416362091d6c5f4}} 
+\index{Passerelle@{Passerelle}!Passerelle@{Passerelle}}
+\index{Passerelle@{Passerelle}!Passerelle@{Passerelle}}
+\subsubsection{\texorpdfstring{Passerelle()}{Passerelle()}}
+{\footnotesize\ttfamily Passerelle\+::\+Passerelle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_passerelle_ab70aa7f8273e11735416362091d6c5f4}{Passerelle\+::\+Passerelle} Constructeur vide de la classe \hyperlink{class_passerelle}{Passerelle}. 
+
+
+
+Définition à la ligne 7 du fichier passerelle.\+cpp.
+
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_passerelle_a9f8cdd9d52d668bb33a5380324fb9c51}\label{class_passerelle_a9f8cdd9d52d668bb33a5380324fb9c51}} 
+\index{Passerelle@{Passerelle}!charger\+Les\+Bateaux\+Voyageurs@{charger\+Les\+Bateaux\+Voyageurs}}
+\index{charger\+Les\+Bateaux\+Voyageurs@{charger\+Les\+Bateaux\+Voyageurs}!Passerelle@{Passerelle}}
+\subsubsection{\texorpdfstring{charger\+Les\+Bateaux\+Voyageurs()}{chargerLesBateauxVoyageurs()}}
+{\footnotesize\ttfamily Q\+Vector$<$ \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} $>$ Passerelle\+::charger\+Les\+Bateaux\+Voyageurs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\hyperlink{class_passerelle_a9f8cdd9d52d668bb33a5380324fb9c51}{Passerelle\+::charger\+Les\+Bateaux\+Voyageurs} Méthode statique publique qui permet de charger les différentes informations de tous les bateaux voyageurs. 
+
+\begin{DoxyReturn}{Renvoie}
+Q\+Vector$<$\+Bateau\+Voyageur$>$ Vecteur qui contient toutes les informations associées aux bateaux voyageurs (le numéro, le libellé, les détails techniques, l\textquotesingle{}image et les équipements) 
+\end{DoxyReturn}
+
+
+Définition à la ligne 45 du fichier passerelle.\+cpp.
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_passerelle_a9f8cdd9d52d668bb33a5380324fb9c51_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_passerelle_a9f8cdd9d52d668bb33a5380324fb9c51_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_passerelle_a7388ba173e23ebf4ceb26d878e9503b3}\label{class_passerelle_a7388ba173e23ebf4ceb26d878e9503b3}} 
+\index{Passerelle@{Passerelle}!charger\+Les\+Equipements@{charger\+Les\+Equipements}}
+\index{charger\+Les\+Equipements@{charger\+Les\+Equipements}!Passerelle@{Passerelle}}
+\subsubsection{\texorpdfstring{charger\+Les\+Equipements()}{chargerLesEquipements()}}
+{\footnotesize\ttfamily Q\+Vector$<$ \hyperlink{class_equipement}{Equipement} $>$ Passerelle\+::charger\+Les\+Equipements (\begin{DoxyParamCaption}\item[{int}]{un\+Id\+Bateau }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\hyperlink{class_passerelle_a7388ba173e23ebf4ceb26d878e9503b3}{Passerelle\+::charger\+Les\+Equipements} Méthode statique publique qui permet de charger les différents équipements d\textquotesingle{}un bateau avec son identifiant passé en paramètre. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em un\+Id\+Bateau} & int Identifiant d\textquotesingle{}un bateau \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Q\+Vector$<$\+Equipement$>$ Vecteur qui contient tous les identifiants et les libellés des équipements d\textquotesingle{}un bateau 
+\end{DoxyReturn}
+
+
+Définition à la ligne 18 du fichier passerelle.\+cpp.
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_passerelle_a7388ba173e23ebf4ceb26d878e9503b3_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_passerelle_a7388ba173e23ebf4ceb26d878e9503b3_icgraph}
+\end{center}
+\end{figure}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{passerelle_8h}{passerelle.\+h}\item 
+\hyperlink{passerelle_8cpp}{passerelle.\+cpp}\end{DoxyCompactItemize}

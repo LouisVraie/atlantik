@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Atlantik:  Fichier source de jeuenregistrement.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logoAtlantik.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Atlantik
+   &#160;<span id="projectnumber">1.0 beta 1</span>
+   </div>
+   <div id="projectbrief">Création de boîte de dialogue PDF des Bateaux Voyageur de la société Atlantik</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4e6b1eba97a550fe8979f4a83bed0082.html">atlantik</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">jeuenregistrement.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="jeuenregistrement_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef JEUENREGISTREMENT_H</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define JEUENREGISTREMENT_H</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;QString&gt;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;QVariant&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;QSqlQuery&gt;</span></div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_jeu_enregistrement.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_jeu_enregistrement.html">JeuEnregistrement</a> : <span class="keyword">public</span> QSqlQuery</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="class_jeu_enregistrement.html#ab7f4141f74961ae1d5060c6d19fae366">JeuEnregistrement</a>(QString chaineSql);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_jeu_enregistrement.html#a4ac6b1c725cbb52f5320c514b7d65b71">suivant</a>();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_jeu_enregistrement.html#af8d23fbc407926e8578986a3e950bdd9">fin</a>();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    QVariant <a class="code" href="class_jeu_enregistrement.html#aa19979b7af9747ae05e8e40f7747bbed">getValeur</a>(QString nomChamp);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_jeu_enregistrement.html#a25a6ae0b1b810abaeef0acb9876ecbaf">fermer</a>();</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;};</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#endif // JEUENREGISTREMENT_H</span></div><div class="ttc" id="class_jeu_enregistrement_html_a4ac6b1c725cbb52f5320c514b7d65b71"><div class="ttname"><a href="class_jeu_enregistrement.html#a4ac6b1c725cbb52f5320c514b7d65b71">JeuEnregistrement::suivant</a></div><div class="ttdeci">void suivant()</div><div class="ttdoc">JeuEnregistrement::suivant Méthode publique qui permet de passer à l&amp;#39;enregistrement suivant...</div><div class="ttdef"><b>Definition:</b> <a href="jeuenregistrement_8cpp_source.html#l00020">jeuenregistrement.cpp:20</a></div></div>
+<div class="ttc" id="class_jeu_enregistrement_html"><div class="ttname"><a href="class_jeu_enregistrement.html">JeuEnregistrement</a></div><div class="ttdoc">La classe JeuEnregistrement Elle hérite de la classe QSqlQuery Elle permet de manipuler un jeu de don...</div><div class="ttdef"><b>Definition:</b> <a href="jeuenregistrement_8h_source.html#l00017">jeuenregistrement.h:17</a></div></div>
+<div class="ttc" id="class_jeu_enregistrement_html_aa19979b7af9747ae05e8e40f7747bbed"><div class="ttname"><a href="class_jeu_enregistrement.html#aa19979b7af9747ae05e8e40f7747bbed">JeuEnregistrement::getValeur</a></div><div class="ttdeci">QVariant getValeur(QString nomChamp)</div><div class="ttdoc">JeuEnregistrement::getValeur Méthode publique qui renvoie la valeur du champ passé en paramètre...</div><div class="ttdef"><b>Definition:</b> <a href="jeuenregistrement_8cpp_source.html#l00041">jeuenregistrement.cpp:41</a></div></div>
+<div class="ttc" id="class_jeu_enregistrement_html_af8d23fbc407926e8578986a3e950bdd9"><div class="ttname"><a href="class_jeu_enregistrement.html#af8d23fbc407926e8578986a3e950bdd9">JeuEnregistrement::fin</a></div><div class="ttdeci">bool fin()</div><div class="ttdoc">JeuEnregistrement::fin Méthode publique qui renvoie un booléen pour savoir si la fin du jeu d&amp;#39;enregis...</div><div class="ttdef"><b>Definition:</b> <a href="jeuenregistrement_8cpp_source.html#l00030">jeuenregistrement.cpp:30</a></div></div>
+<div class="ttc" id="class_jeu_enregistrement_html_ab7f4141f74961ae1d5060c6d19fae366"><div class="ttname"><a href="class_jeu_enregistrement.html#ab7f4141f74961ae1d5060c6d19fae366">JeuEnregistrement::JeuEnregistrement</a></div><div class="ttdeci">JeuEnregistrement(QString chaineSql)</div><div class="ttdoc">JeuEnregistrement::JeuEnregistrement Constructeur de la classe JeuEnregistrement qui permet de lire u...</div><div class="ttdef"><b>Definition:</b> <a href="jeuenregistrement_8cpp_source.html#l00010">jeuenregistrement.cpp:10</a></div></div>
+<div class="ttc" id="class_jeu_enregistrement_html_a25a6ae0b1b810abaeef0acb9876ecbaf"><div class="ttname"><a href="class_jeu_enregistrement.html#a25a6ae0b1b810abaeef0acb9876ecbaf">JeuEnregistrement::fermer</a></div><div class="ttdeci">void fermer()</div><div class="ttdoc">JeuEnregistrement::fermer Méthode publique qui permet de marquer la fermeture de la requête...</div><div class="ttdef"><b>Definition:</b> <a href="jeuenregistrement_8cpp_source.html#l00050">jeuenregistrement.cpp:50</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

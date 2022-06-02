@@ -1,0 +1,6 @@
+<map id="Passerelle::chargerLesBateauxVoyageurs" name="Passerelle::chargerLesBateauxVoyageurs">
+<area shape="rect" id="node2" href="$class_jeu_enregistrement.html#af8d23fbc407926e8578986a3e950bdd9" title="JeuEnregistrement::fin Méthode publique qui renvoie un booléen pour savoir si la fin du jeu d&#39;enregis..." alt="" coords="535,5,688,32"/>
+<area shape="rect" id="node3" href="$class_jeu_enregistrement.html#aa19979b7af9747ae05e8e40f7747bbed" title="JeuEnregistrement::getValeur Méthode publique qui renvoie la valeur du champ passé en paramètre..." alt="" coords="542,61,681,102"/>
+<area shape="rect" id="node4" href="$class_passerelle.html#a7388ba173e23ebf4ceb26d878e9503b3" title="Passerelle::chargerLesEquipements Méthode statique publique qui permet de charger les différents équi..." alt="" coords="256,52,487,79"/>
+<area shape="rect" id="node5" href="$class_jeu_enregistrement.html#a4ac6b1c725cbb52f5320c514b7d65b71" title="JeuEnregistrement::suivant Méthode publique qui permet de passer à l&#39;enregistrement suivant..." alt="" coords="542,133,681,174"/>
+</map>

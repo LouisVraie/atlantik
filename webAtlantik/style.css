@@ -1,0 +1,52 @@
+body{
+    background-color: whitesmoke;
+}
+
+/*Table*/
+table{
+    border-collapse: collapse;
+    margin-top: 0px;
+}
+th{
+    background-color: #ccc;
+}
+th,td{
+    border: 1px solid black;
+    margin: 0px;
+    padding: 5px 10px;
+}
+.center{
+    text-align: center;
+}
+p{
+    margin-bottom: 0px;
+}
+div div{
+    padding: 10px 20px;
+}
+ul{
+    padding: 0px;
+}
+li{
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+#horaire{
+    margin-top: 5vh;
+}
+#reserver{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0px;
+}
+p{
+    margin-top: 0px;
+}
+a{
+    text-decoration: none;
+}

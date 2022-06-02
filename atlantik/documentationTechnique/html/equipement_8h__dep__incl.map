@@ -1,0 +1,8 @@
+<map id="equipement.h" name="equipement.h">
+<area shape="rect" id="node2" href="$bateauvoyageur_8h.html" title="bateauvoyageur.h" alt="" coords="115,80,240,107"/>
+<area shape="rect" id="node5" href="$passerelle_8h.html" title="passerelle.h" alt="" coords="227,155,319,181"/>
+<area shape="rect" id="node7" href="$equipement_8cpp.html" title="equipement.cpp" alt="" coords="315,80,429,107"/>
+<area shape="rect" id="node3" href="$bateauvoyageur_8cpp.html" title="bateauvoyageur.cpp" alt="" coords="5,155,144,181"/>
+<area shape="rect" id="node4" href="$mainwindow_8cpp.html" title="mainwindow.cpp" alt="" coords="122,229,241,256"/>
+<area shape="rect" id="node6" href="$passerelle_8cpp.html" title="passerelle.cpp" alt="" coords="265,229,372,256"/>
+</map>

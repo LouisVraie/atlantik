@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Atlantik:  Fichier source de equipement.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logoAtlantik.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Atlantik
+   &#160;<span id="projectnumber">1.0 beta 1</span>
+   </div>
+   <div id="projectbrief">Création de boîte de dialogue PDF des Bateaux Voyageur de la société Atlantik</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4e6b1eba97a550fe8979f4a83bed0082.html">atlantik</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">equipement.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="equipement_8cpp.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="equipement_8h.html">equipement.h</a>&quot;</span></div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_equipement.html#a7017dfb537dadbaddac0d8006d96500b">    8</a></span>&#160;<a class="code" href="class_equipement.html#a9057a4777d006cbac4c72d09a8d09407">Equipement::Equipement</a>(QString sonId, QString sonLibelle)</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="class_equipement.html#a140b7498ba59bdacb3f57a924b2853ad">idEquip</a> = sonId;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="class_equipement.html#a69e0291bded262f34fe2ba57ad4cf99a">libEquip</a> = sonLibelle;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_equipement.html#a9057a4777d006cbac4c72d09a8d09407">   18</a></span>&#160;<a class="code" href="class_equipement.html#a9057a4777d006cbac4c72d09a8d09407">Equipement::Equipement</a>()</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="comment">//constructeur vide</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_equipement.html#a5e45c0b5524b353c77a23b618d73a1d0">   28</a></span>&#160;QString <a class="code" href="class_equipement.html#a5e45c0b5524b353c77a23b618d73a1d0">Equipement::versChaine</a>()</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_equipement.html#a69e0291bded262f34fe2ba57ad4cf99a">libEquip</a>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div><div class="ttc" id="class_equipement_html_a140b7498ba59bdacb3f57a924b2853ad"><div class="ttname"><a href="class_equipement.html#a140b7498ba59bdacb3f57a924b2853ad">Equipement::idEquip</a></div><div class="ttdeci">QString idEquip</div><div class="ttdef"><b>Definition:</b> <a href="equipement_8h_source.html#l00018">equipement.h:18</a></div></div>
+<div class="ttc" id="class_equipement_html_a69e0291bded262f34fe2ba57ad4cf99a"><div class="ttname"><a href="class_equipement.html#a69e0291bded262f34fe2ba57ad4cf99a">Equipement::libEquip</a></div><div class="ttdeci">QString libEquip</div><div class="ttdef"><b>Definition:</b> <a href="equipement_8h_source.html#l00018">equipement.h:18</a></div></div>
+<div class="ttc" id="equipement_8h_html"><div class="ttname"><a href="equipement_8h.html">equipement.h</a></div></div>
+<div class="ttc" id="class_equipement_html_a5e45c0b5524b353c77a23b618d73a1d0"><div class="ttname"><a href="class_equipement.html#a5e45c0b5524b353c77a23b618d73a1d0">Equipement::versChaine</a></div><div class="ttdeci">QString versChaine()</div><div class="ttdoc">Equipement::versChaine Méthode publique qui renvoie la chaîne de caractère utilisée pour obtenir le l...</div><div class="ttdef"><b>Definition:</b> <a href="equipement_8cpp_source.html#l00028">equipement.cpp:28</a></div></div>
+<div class="ttc" id="class_equipement_html_a9057a4777d006cbac4c72d09a8d09407"><div class="ttname"><a href="class_equipement.html#a9057a4777d006cbac4c72d09a8d09407">Equipement::Equipement</a></div><div class="ttdeci">Equipement()</div><div class="ttdoc">Equipement::Equipement Constructeur vide de la classe Equipement nécessaire car il y a des vecteurs d...</div><div class="ttdef"><b>Definition:</b> <a href="equipement_8cpp_source.html#l00018">equipement.cpp:18</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

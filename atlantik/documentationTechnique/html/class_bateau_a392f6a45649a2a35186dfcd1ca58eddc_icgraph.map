@@ -1,0 +1,5 @@
+<map id="Bateau::versChaine" name="Bateau::versChaine">
+<area shape="rect" id="node2" href="$class_bateau_voyageur.html#a3fa14cf7db3a1a35457f1e0450d7e8b2" title="BateauVoyageur::versChaine Méthode publique qui renvoie la chaîne de caractère utilisée pour décrire ..." alt="" coords="191,5,383,32"/>
+<area shape="rect" id="node3" href="$class_main_window.html#a6db0e3a1a7ce60c36d151d1ae618f16c" title="MainWindow::brochurePDF Méthode privée qui permet de créer une brochure PDF des BateauxVoyageur dans ..." alt="" coords="431,5,613,32"/>
+<area shape="rect" id="node4" href="$class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title="MainWindow::MainWindow Constructeur de la classe MainWindow qui permet de créer l&#39;application. " alt="" coords="661,5,841,32"/>
+</map>

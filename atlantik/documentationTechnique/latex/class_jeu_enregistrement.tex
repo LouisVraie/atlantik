@@ -1,0 +1,182 @@
+\hypertarget{class_jeu_enregistrement}{}\section{Référence de la classe Jeu\+Enregistrement}
+\label{class_jeu_enregistrement}\index{Jeu\+Enregistrement@{Jeu\+Enregistrement}}
+
+
+La classe \hyperlink{class_jeu_enregistrement}{Jeu\+Enregistrement} Elle hérite de la classe Q\+Sql\+Query Elle permet de manipuler un jeu de données.  
+
+
+
+
+{\ttfamily \#include $<$jeuenregistrement.\+h$>$}
+
+
+
+Graphe d\textquotesingle{}héritage de Jeu\+Enregistrement\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{class_jeu_enregistrement__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Jeu\+Enregistrement\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{class_jeu_enregistrement__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_jeu_enregistrement_ab7f4141f74961ae1d5060c6d19fae366}{Jeu\+Enregistrement} (Q\+String chaine\+Sql)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_jeu_enregistrement_ab7f4141f74961ae1d5060c6d19fae366}{Jeu\+Enregistrement\+::\+Jeu\+Enregistrement} Constructeur de la classe \hyperlink{class_jeu_enregistrement}{Jeu\+Enregistrement} qui permet de lire un jeu d\textquotesingle{}enregistrement et de renseigner le paramètre de la classe Q\+Sql\+Query avec la chaîne S\+QL passées en paramètre Le constructeur de \hyperlink{class_jeu_enregistrement}{Jeu\+Enregistrement} appelle le constructeur de Q\+Sql\+Query. \end{DoxyCompactList}\item 
+void \hyperlink{class_jeu_enregistrement_a4ac6b1c725cbb52f5320c514b7d65b71}{suivant} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_jeu_enregistrement_a4ac6b1c725cbb52f5320c514b7d65b71}{Jeu\+Enregistrement\+::suivant} Méthode publique qui permet de passer à l\textquotesingle{}enregistrement suivant. \end{DoxyCompactList}\item 
+bool \hyperlink{class_jeu_enregistrement_af8d23fbc407926e8578986a3e950bdd9}{fin} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_jeu_enregistrement_af8d23fbc407926e8578986a3e950bdd9}{Jeu\+Enregistrement\+::fin} Méthode publique qui renvoie un booléen pour savoir si la fin du jeu d\textquotesingle{}enregistrement est atteint. \end{DoxyCompactList}\item 
+Q\+Variant \hyperlink{class_jeu_enregistrement_aa19979b7af9747ae05e8e40f7747bbed}{get\+Valeur} (Q\+String nom\+Champ)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_jeu_enregistrement_aa19979b7af9747ae05e8e40f7747bbed}{Jeu\+Enregistrement\+::get\+Valeur} Méthode publique qui renvoie la valeur du champ passé en paramètre. \end{DoxyCompactList}\item 
+void \hyperlink{class_jeu_enregistrement_a25a6ae0b1b810abaeef0acb9876ecbaf}{fermer} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_jeu_enregistrement_a25a6ae0b1b810abaeef0acb9876ecbaf}{Jeu\+Enregistrement\+::fermer} Méthode publique qui permet de marquer la fermeture de la requête. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+La classe \hyperlink{class_jeu_enregistrement}{Jeu\+Enregistrement} Elle hérite de la classe Q\+Sql\+Query Elle permet de manipuler un jeu de données. 
+
+\begin{DoxyAuthor}{Auteur}
+Louis Vraie 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+08/11/2021 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 beta 1 
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+G\+NU Public License 
+\end{DoxyCopyright}
+
+
+Définition à la ligne 17 du fichier jeuenregistrement.\+h.
+
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_jeu_enregistrement_ab7f4141f74961ae1d5060c6d19fae366}\label{class_jeu_enregistrement_ab7f4141f74961ae1d5060c6d19fae366}} 
+\index{Jeu\+Enregistrement@{Jeu\+Enregistrement}!Jeu\+Enregistrement@{Jeu\+Enregistrement}}
+\index{Jeu\+Enregistrement@{Jeu\+Enregistrement}!Jeu\+Enregistrement@{Jeu\+Enregistrement}}
+\subsubsection{\texorpdfstring{Jeu\+Enregistrement()}{JeuEnregistrement()}}
+{\footnotesize\ttfamily Jeu\+Enregistrement\+::\+Jeu\+Enregistrement (\begin{DoxyParamCaption}\item[{Q\+String}]{chaine\+Sql }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_jeu_enregistrement_ab7f4141f74961ae1d5060c6d19fae366}{Jeu\+Enregistrement\+::\+Jeu\+Enregistrement} Constructeur de la classe \hyperlink{class_jeu_enregistrement}{Jeu\+Enregistrement} qui permet de lire un jeu d\textquotesingle{}enregistrement et de renseigner le paramètre de la classe Q\+Sql\+Query avec la chaîne S\+QL passées en paramètre Le constructeur de \hyperlink{class_jeu_enregistrement}{Jeu\+Enregistrement} appelle le constructeur de Q\+Sql\+Query. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em chaine\+Sql} & Q\+String Requête S\+QL qui souhaite sélectionner des enregistrements dans une base de données \\
+\hline
+\end{DoxyParams}
+
+
+Définition à la ligne 10 du fichier jeuenregistrement.\+cpp.
+
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_jeu_enregistrement_a25a6ae0b1b810abaeef0acb9876ecbaf}\label{class_jeu_enregistrement_a25a6ae0b1b810abaeef0acb9876ecbaf}} 
+\index{Jeu\+Enregistrement@{Jeu\+Enregistrement}!fermer@{fermer}}
+\index{fermer@{fermer}!Jeu\+Enregistrement@{Jeu\+Enregistrement}}
+\subsubsection{\texorpdfstring{fermer()}{fermer()}}
+{\footnotesize\ttfamily void Jeu\+Enregistrement\+::fermer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_jeu_enregistrement_a25a6ae0b1b810abaeef0acb9876ecbaf}{Jeu\+Enregistrement\+::fermer} Méthode publique qui permet de marquer la fermeture de la requête. 
+
+
+
+Définition à la ligne 50 du fichier jeuenregistrement.\+cpp.
+
+\mbox{\Hypertarget{class_jeu_enregistrement_af8d23fbc407926e8578986a3e950bdd9}\label{class_jeu_enregistrement_af8d23fbc407926e8578986a3e950bdd9}} 
+\index{Jeu\+Enregistrement@{Jeu\+Enregistrement}!fin@{fin}}
+\index{fin@{fin}!Jeu\+Enregistrement@{Jeu\+Enregistrement}}
+\subsubsection{\texorpdfstring{fin()}{fin()}}
+{\footnotesize\ttfamily bool Jeu\+Enregistrement\+::fin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_jeu_enregistrement_af8d23fbc407926e8578986a3e950bdd9}{Jeu\+Enregistrement\+::fin} Méthode publique qui renvoie un booléen pour savoir si la fin du jeu d\textquotesingle{}enregistrement est atteint. 
+
+\begin{DoxyReturn}{Renvoie}
+bool Booléen qui permet de savoir si la fin du jeu d\textquotesingle{}enregistrement est atteint 
+\end{DoxyReturn}
+
+
+Définition à la ligne 30 du fichier jeuenregistrement.\+cpp.
+
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_jeu_enregistrement_af8d23fbc407926e8578986a3e950bdd9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_jeu_enregistrement_aa19979b7af9747ae05e8e40f7747bbed}\label{class_jeu_enregistrement_aa19979b7af9747ae05e8e40f7747bbed}} 
+\index{Jeu\+Enregistrement@{Jeu\+Enregistrement}!get\+Valeur@{get\+Valeur}}
+\index{get\+Valeur@{get\+Valeur}!Jeu\+Enregistrement@{Jeu\+Enregistrement}}
+\subsubsection{\texorpdfstring{get\+Valeur()}{getValeur()}}
+{\footnotesize\ttfamily Q\+Variant Jeu\+Enregistrement\+::get\+Valeur (\begin{DoxyParamCaption}\item[{Q\+String}]{nom\+Champ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_jeu_enregistrement_aa19979b7af9747ae05e8e40f7747bbed}{Jeu\+Enregistrement\+::get\+Valeur} Méthode publique qui renvoie la valeur du champ passé en paramètre. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em nom\+Champ} & Q\+String Nom du champs à récupérer dans l\textquotesingle{}enregistrement courant \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Q\+Variant Variable non typé qui possède la valeur courante du champ donné en paramètre 
+\end{DoxyReturn}
+
+
+Définition à la ligne 41 du fichier jeuenregistrement.\+cpp.
+
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_jeu_enregistrement_aa19979b7af9747ae05e8e40f7747bbed_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_jeu_enregistrement_a4ac6b1c725cbb52f5320c514b7d65b71}\label{class_jeu_enregistrement_a4ac6b1c725cbb52f5320c514b7d65b71}} 
+\index{Jeu\+Enregistrement@{Jeu\+Enregistrement}!suivant@{suivant}}
+\index{suivant@{suivant}!Jeu\+Enregistrement@{Jeu\+Enregistrement}}
+\subsubsection{\texorpdfstring{suivant()}{suivant()}}
+{\footnotesize\ttfamily void Jeu\+Enregistrement\+::suivant (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_jeu_enregistrement_a4ac6b1c725cbb52f5320c514b7d65b71}{Jeu\+Enregistrement\+::suivant} Méthode publique qui permet de passer à l\textquotesingle{}enregistrement suivant. 
+
+
+
+Définition à la ligne 20 du fichier jeuenregistrement.\+cpp.
+
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_jeu_enregistrement_a4ac6b1c725cbb52f5320c514b7d65b71_icgraph}
+\end{center}
+\end{figure}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{jeuenregistrement_8h}{jeuenregistrement.\+h}\item 
+\hyperlink{jeuenregistrement_8cpp}{jeuenregistrement.\+cpp}\end{DoxyCompactItemize}

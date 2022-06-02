@@ -1,0 +1,4 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$class_bateau.html" title="La classe Bateau C&#39;est la classe mère de la classe BateauVoyageur Chaque bateau dispose de 4 propriét..." alt="" coords="5,5,68,32"/>
+<area shape="rect" id="node2" href="$class_bateau_voyageur.html" title="La classe BateauVoyageur C&#39;est une dépendance de la classe Passerelle Chaque bateau voyageur dispose ..." alt="" coords="116,5,235,32"/>
+</map>

@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Atlantik:  Fichier source de passerelle.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logoAtlantik.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Atlantik
+   &#160;<span id="projectnumber">1.0 beta 1</span>
+   </div>
+   <div id="projectbrief">Création de boîte de dialogue PDF des Bateaux Voyageur de la société Atlantik</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4e6b1eba97a550fe8979f4a83bed0082.html">atlantik</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">passerelle.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="passerelle_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef PASSERELLE_H</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define PASSERELLE_H</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="bateauvoyageur_8h.html">bateauvoyageur.h</a>&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="equipement_8h.html">equipement.h</a>&quot;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="jeuenregistrement_8h.html">jeuenregistrement.h</a>&quot;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;QVector&gt;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_passerelle.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_passerelle.html">Passerelle</a></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="class_passerelle.html#ab70aa7f8273e11735416362091d6c5f4">Passerelle</a>();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">static</span> QVector&lt;Equipement&gt; <a class="code" href="class_passerelle.html#a7388ba173e23ebf4ceb26d878e9503b3">chargerLesEquipements</a>(<span class="keywordtype">int</span> unIdBateau);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">static</span> QVector&lt;BateauVoyageur&gt; <a class="code" href="class_passerelle.html#a9f8cdd9d52d668bb33a5380324fb9c51">chargerLesBateauxVoyageurs</a>();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;};</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif // PASSERELLE_H</span></div><div class="ttc" id="class_passerelle_html_a9f8cdd9d52d668bb33a5380324fb9c51"><div class="ttname"><a href="class_passerelle.html#a9f8cdd9d52d668bb33a5380324fb9c51">Passerelle::chargerLesBateauxVoyageurs</a></div><div class="ttdeci">static QVector&lt; BateauVoyageur &gt; chargerLesBateauxVoyageurs()</div><div class="ttdoc">Passerelle::chargerLesBateauxVoyageurs Méthode statique publique qui permet de charger les différente...</div><div class="ttdef"><b>Definition:</b> <a href="passerelle_8cpp_source.html#l00045">passerelle.cpp:45</a></div></div>
+<div class="ttc" id="bateauvoyageur_8h_html"><div class="ttname"><a href="bateauvoyageur_8h.html">bateauvoyageur.h</a></div></div>
+<div class="ttc" id="class_passerelle_html_a7388ba173e23ebf4ceb26d878e9503b3"><div class="ttname"><a href="class_passerelle.html#a7388ba173e23ebf4ceb26d878e9503b3">Passerelle::chargerLesEquipements</a></div><div class="ttdeci">static QVector&lt; Equipement &gt; chargerLesEquipements(int unIdBateau)</div><div class="ttdoc">Passerelle::chargerLesEquipements Méthode statique publique qui permet de charger les différents équi...</div><div class="ttdef"><b>Definition:</b> <a href="passerelle_8cpp_source.html#l00018">passerelle.cpp:18</a></div></div>
+<div class="ttc" id="class_passerelle_html_ab70aa7f8273e11735416362091d6c5f4"><div class="ttname"><a href="class_passerelle.html#ab70aa7f8273e11735416362091d6c5f4">Passerelle::Passerelle</a></div><div class="ttdeci">Passerelle()</div><div class="ttdoc">Passerelle::Passerelle Constructeur vide de la classe Passerelle. </div><div class="ttdef"><b>Definition:</b> <a href="passerelle_8cpp_source.html#l00007">passerelle.cpp:7</a></div></div>
+<div class="ttc" id="equipement_8h_html"><div class="ttname"><a href="equipement_8h.html">equipement.h</a></div></div>
+<div class="ttc" id="jeuenregistrement_8h_html"><div class="ttname"><a href="jeuenregistrement_8h.html">jeuenregistrement.h</a></div></div>
+<div class="ttc" id="class_passerelle_html"><div class="ttname"><a href="class_passerelle.html">Passerelle</a></div><div class="ttdoc">La classe Passerelle Elle est dépendante des classes BateauVoyageur et Equipement. </div><div class="ttdef"><b>Definition:</b> <a href="passerelle_8h_source.html#l00018">passerelle.h:18</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

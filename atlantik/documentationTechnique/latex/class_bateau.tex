@@ -1,0 +1,196 @@
+\hypertarget{class_bateau}{}\section{Référence de la classe Bateau}
+\label{class_bateau}\index{Bateau@{Bateau}}
+
+
+La classe \hyperlink{class_bateau}{Bateau} C\textquotesingle{}est la classe mère de la classe \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} Chaque bateau dispose de 4 propriétés.  
+
+
+
+
+{\ttfamily \#include $<$bateau.\+h$>$}
+
+
+
+Graphe d\textquotesingle{}héritage de Bateau\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{class_bateau__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Bateau\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=161pt]{class_bateau__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_bateau_a5ea29ce02b632a199385200248a05581}{Bateau} (Q\+String un\+Id, Q\+String un\+Nom, float une\+Longueur, float une\+Largeur)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_bateau_a5ea29ce02b632a199385200248a05581}{Bateau\+::\+Bateau} Constructeur de la classe \hyperlink{class_bateau}{Bateau} qui permet de remplir les propriétés privées du bateau avec les valeurs passées en paramètre. \end{DoxyCompactList}\item 
+\hyperlink{class_bateau_a9b2027f6f3a71d6b05209e22b928db00}{Bateau} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_bateau_a5ea29ce02b632a199385200248a05581}{Bateau\+::\+Bateau} Constructeur vide de la classe \hyperlink{class_bateau}{Bateau} nécessaire car il y a des vecteurs de \hyperlink{class_bateau}{Bateau}. \end{DoxyCompactList}\item 
+Q\+String \hyperlink{class_bateau_a392f6a45649a2a35186dfcd1ca58eddc}{vers\+Chaine} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_bateau_a392f6a45649a2a35186dfcd1ca58eddc}{Bateau\+::vers\+Chaine} Cette méthode publique renvoie la chaîne de caractère utilisée pour décrire le bateau~\newline
+Exemple \+:~\newline
+Nom du bateau \+: Queen Mary~\newline
+Longueur \+: 14.\+5 mètres~\newline
+Largeur \+: 8.\+2 mètres. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+Q\+String \hyperlink{class_bateau_acf710114558ee740be62211df06133e1}{id\+Bat}
+\item 
+Q\+String \hyperlink{class_bateau_a2d01e3edfc60cb9111a5f4f11b2813b3}{nom\+Bat}
+\item 
+float \hyperlink{class_bateau_a6c1f8f9f5bb656fae6ce59bcfa6fe8aa}{longueur\+Bat}
+\item 
+float \hyperlink{class_bateau_ace3ced3b9bb6506a913645230b85022c}{largeur\+Bat}
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+La classe \hyperlink{class_bateau}{Bateau} C\textquotesingle{}est la classe mère de la classe \hyperlink{class_bateau_voyageur}{Bateau\+Voyageur} Chaque bateau dispose de 4 propriétés. 
+
+\begin{DoxyAuthor}{Auteur}
+Louis Vraie 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+08/11/2021 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 beta 1 
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+G\+NU Public License 
+\end{DoxyCopyright}
+
+
+Définition à la ligne 15 du fichier bateau.\+h.
+
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_bateau_a5ea29ce02b632a199385200248a05581}\label{class_bateau_a5ea29ce02b632a199385200248a05581}} 
+\index{Bateau@{Bateau}!Bateau@{Bateau}}
+\index{Bateau@{Bateau}!Bateau@{Bateau}}
+\subsubsection{\texorpdfstring{Bateau()}{Bateau()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Bateau\+::\+Bateau (\begin{DoxyParamCaption}\item[{Q\+String}]{un\+Id,  }\item[{Q\+String}]{un\+Nom,  }\item[{float}]{une\+Longueur,  }\item[{float}]{une\+Largeur }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_bateau_a5ea29ce02b632a199385200248a05581}{Bateau\+::\+Bateau} Constructeur de la classe \hyperlink{class_bateau}{Bateau} qui permet de remplir les propriétés privées du bateau avec les valeurs passées en paramètre. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em un\+Id} & Q\+String C\textquotesingle{}est l\textquotesingle{}identifiant du bateau \\
+\hline
+{\em un\+Nom} & Q\+String Il s\textquotesingle{}agit du nom du bateau exemple \char`\"{}\+Queen Mary\char`\"{} \\
+\hline
+{\em une\+Longueur} & float Longueur du bateau exprimée en mètres exemple\+: 14.\+5 \\
+\hline
+{\em une\+Largeur} & float Largeur du bateau exprimée en mètres exemple\+: 8.\+2 \\
+\hline
+\end{DoxyParams}
+
+
+Définition à la ligne 11 du fichier bateau.\+cpp.
+
+\mbox{\Hypertarget{class_bateau_a9b2027f6f3a71d6b05209e22b928db00}\label{class_bateau_a9b2027f6f3a71d6b05209e22b928db00}} 
+\index{Bateau@{Bateau}!Bateau@{Bateau}}
+\index{Bateau@{Bateau}!Bateau@{Bateau}}
+\subsubsection{\texorpdfstring{Bateau()}{Bateau()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Bateau\+::\+Bateau (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_bateau_a5ea29ce02b632a199385200248a05581}{Bateau\+::\+Bateau} Constructeur vide de la classe \hyperlink{class_bateau}{Bateau} nécessaire car il y a des vecteurs de \hyperlink{class_bateau}{Bateau}. 
+
+
+
+Définition à la ligne 23 du fichier bateau.\+cpp.
+
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_bateau_a392f6a45649a2a35186dfcd1ca58eddc}\label{class_bateau_a392f6a45649a2a35186dfcd1ca58eddc}} 
+\index{Bateau@{Bateau}!vers\+Chaine@{vers\+Chaine}}
+\index{vers\+Chaine@{vers\+Chaine}!Bateau@{Bateau}}
+\subsubsection{\texorpdfstring{vers\+Chaine()}{versChaine()}}
+{\footnotesize\ttfamily Q\+String Bateau\+::vers\+Chaine (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_bateau_a392f6a45649a2a35186dfcd1ca58eddc}{Bateau\+::vers\+Chaine} Cette méthode publique renvoie la chaîne de caractère utilisée pour décrire le bateau~\newline
+Exemple \+:~\newline
+Nom du bateau \+: Queen Mary~\newline
+Longueur \+: 14.\+5 mètres~\newline
+Largeur \+: 8.\+2 mètres. 
+
+\begin{DoxyReturn}{Renvoie}
+Q\+String Une chaine de caractère sur plusieurs lignes présentant le Nom du bateau et ses différentes informations 
+\end{DoxyReturn}
+
+
+Définition à la ligne 37 du fichier bateau.\+cpp.
+
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bateau_a392f6a45649a2a35186dfcd1ca58eddc_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_bateau_acf710114558ee740be62211df06133e1}\label{class_bateau_acf710114558ee740be62211df06133e1}} 
+\index{Bateau@{Bateau}!id\+Bat@{id\+Bat}}
+\index{id\+Bat@{id\+Bat}!Bateau@{Bateau}}
+\subsubsection{\texorpdfstring{id\+Bat}{idBat}}
+{\footnotesize\ttfamily Q\+String Bateau\+::id\+Bat\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Définition à la ligne 18 du fichier bateau.\+h.
+
+\mbox{\Hypertarget{class_bateau_ace3ced3b9bb6506a913645230b85022c}\label{class_bateau_ace3ced3b9bb6506a913645230b85022c}} 
+\index{Bateau@{Bateau}!largeur\+Bat@{largeur\+Bat}}
+\index{largeur\+Bat@{largeur\+Bat}!Bateau@{Bateau}}
+\subsubsection{\texorpdfstring{largeur\+Bat}{largeurBat}}
+{\footnotesize\ttfamily float Bateau\+::largeur\+Bat\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Définition à la ligne 19 du fichier bateau.\+h.
+
+\mbox{\Hypertarget{class_bateau_a6c1f8f9f5bb656fae6ce59bcfa6fe8aa}\label{class_bateau_a6c1f8f9f5bb656fae6ce59bcfa6fe8aa}} 
+\index{Bateau@{Bateau}!longueur\+Bat@{longueur\+Bat}}
+\index{longueur\+Bat@{longueur\+Bat}!Bateau@{Bateau}}
+\subsubsection{\texorpdfstring{longueur\+Bat}{longueurBat}}
+{\footnotesize\ttfamily float Bateau\+::longueur\+Bat\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Définition à la ligne 19 du fichier bateau.\+h.
+
+\mbox{\Hypertarget{class_bateau_a2d01e3edfc60cb9111a5f4f11b2813b3}\label{class_bateau_a2d01e3edfc60cb9111a5f4f11b2813b3}} 
+\index{Bateau@{Bateau}!nom\+Bat@{nom\+Bat}}
+\index{nom\+Bat@{nom\+Bat}!Bateau@{Bateau}}
+\subsubsection{\texorpdfstring{nom\+Bat}{nomBat}}
+{\footnotesize\ttfamily Q\+String Bateau\+::nom\+Bat\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Définition à la ligne 18 du fichier bateau.\+h.
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{bateau_8h}{bateau.\+h}\item 
+\hyperlink{bateau_8cpp}{bateau.\+cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Atlantik:  Fichier source de bateauvoyageur.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logoAtlantik.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Atlantik
+   &#160;<span id="projectnumber">1.0 beta 1</span>
+   </div>
+   <div id="projectbrief">Création de boîte de dialogue PDF des Bateaux Voyageur de la société Atlantik</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4e6b1eba97a550fe8979f4a83bed0082.html">atlantik</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">bateauvoyageur.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="bateauvoyageur_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef BATEAUVOYAGEUR_H</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define BATEAUVOYAGEUR_H</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="bateau_8h.html">bateau.h</a>&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="equipement_8h.html">equipement.h</a>&quot;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;QVector&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_bateau_voyageur.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_bateau_voyageur.html">BateauVoyageur</a> : <span class="keyword">public</span> <a class="code" href="class_bateau.html">Bateau</a></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_bateau_voyageur.html#a245a2e10cb6264193306f728b0af04cb">   21</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_bateau_voyageur.html#a245a2e10cb6264193306f728b0af04cb">vitesseBatVoy</a>;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_bateau_voyageur.html#aa00ee12fc973cf555a5b07cbdcf573a3">   22</a></span>&#160;    QString <a class="code" href="class_bateau_voyageur.html#aa00ee12fc973cf555a5b07cbdcf573a3">imageBatVoy</a>;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_bateau_voyageur.html#a570ffdd189b44025d2e8d88e5dcdb1e2">   23</a></span>&#160;    QVector&lt;Equipement&gt; <a class="code" href="class_bateau_voyageur.html#a570ffdd189b44025d2e8d88e5dcdb1e2">lesEquipements</a>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="class_bateau_voyageur.html#ac327b0101a2586190a3afcd639f146cc">BateauVoyageur</a>(QString unId,QString unNom,<span class="keywordtype">float</span> uneLongueur,</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                   <span class="keywordtype">float</span> uneLargeur,<span class="keywordtype">float</span> uneVitesse,QString uneImage,</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                   QVector&lt;Equipement&gt; uneCollEquip);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="class_bateau_voyageur.html#ac327b0101a2586190a3afcd639f146cc">BateauVoyageur</a>();</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    QString <a class="code" href="class_bateau_voyageur.html#a3fa14cf7db3a1a35457f1e0450d7e8b2">versChaine</a>();</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    QString <a class="code" href="class_bateau_voyageur.html#a3154786b2f572d0c2a2ac975757295eb">getImageBatVoy</a>();</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;};</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#endif // BATEAUVOYAGEUR_H</span></div><div class="ttc" id="class_bateau_voyageur_html_a245a2e10cb6264193306f728b0af04cb"><div class="ttname"><a href="class_bateau_voyageur.html#a245a2e10cb6264193306f728b0af04cb">BateauVoyageur::vitesseBatVoy</a></div><div class="ttdeci">float vitesseBatVoy</div><div class="ttdef"><b>Definition:</b> <a href="bateauvoyageur_8h_source.html#l00021">bateauvoyageur.h:21</a></div></div>
+<div class="ttc" id="class_bateau_voyageur_html_a3fa14cf7db3a1a35457f1e0450d7e8b2"><div class="ttname"><a href="class_bateau_voyageur.html#a3fa14cf7db3a1a35457f1e0450d7e8b2">BateauVoyageur::versChaine</a></div><div class="ttdeci">QString versChaine()</div><div class="ttdoc">BateauVoyageur::versChaine Méthode publique qui renvoie la chaîne de caractère utilisée pour décrire ...</div><div class="ttdef"><b>Definition:</b> <a href="bateauvoyageur_8cpp_source.html#l00048">bateauvoyageur.cpp:48</a></div></div>
+<div class="ttc" id="class_bateau_voyageur_html"><div class="ttname"><a href="class_bateau_voyageur.html">BateauVoyageur</a></div><div class="ttdoc">La classe BateauVoyageur C&amp;#39;est une dépendance de la classe Passerelle Chaque bateau voyageur dispose ...</div><div class="ttdef"><b>Definition:</b> <a href="bateauvoyageur_8h_source.html#l00018">bateauvoyageur.h:18</a></div></div>
+<div class="ttc" id="bateau_8h_html"><div class="ttname"><a href="bateau_8h.html">bateau.h</a></div></div>
+<div class="ttc" id="class_bateau_voyageur_html_aa00ee12fc973cf555a5b07cbdcf573a3"><div class="ttname"><a href="class_bateau_voyageur.html#aa00ee12fc973cf555a5b07cbdcf573a3">BateauVoyageur::imageBatVoy</a></div><div class="ttdeci">QString imageBatVoy</div><div class="ttdef"><b>Definition:</b> <a href="bateauvoyageur_8h_source.html#l00022">bateauvoyageur.h:22</a></div></div>
+<div class="ttc" id="equipement_8h_html"><div class="ttname"><a href="equipement_8h.html">equipement.h</a></div></div>
+<div class="ttc" id="class_bateau_html"><div class="ttname"><a href="class_bateau.html">Bateau</a></div><div class="ttdoc">La classe Bateau C&amp;#39;est la classe mère de la classe BateauVoyageur Chaque bateau dispose de 4 propriét...</div><div class="ttdef"><b>Definition:</b> <a href="bateau_8h_source.html#l00015">bateau.h:15</a></div></div>
+<div class="ttc" id="class_bateau_voyageur_html_a570ffdd189b44025d2e8d88e5dcdb1e2"><div class="ttname"><a href="class_bateau_voyageur.html#a570ffdd189b44025d2e8d88e5dcdb1e2">BateauVoyageur::lesEquipements</a></div><div class="ttdeci">QVector&lt; Equipement &gt; lesEquipements</div><div class="ttdef"><b>Definition:</b> <a href="bateauvoyageur_8h_source.html#l00023">bateauvoyageur.h:23</a></div></div>
+<div class="ttc" id="class_bateau_voyageur_html_a3154786b2f572d0c2a2ac975757295eb"><div class="ttname"><a href="class_bateau_voyageur.html#a3154786b2f572d0c2a2ac975757295eb">BateauVoyageur::getImageBatVoy</a></div><div class="ttdeci">QString getImageBatVoy()</div><div class="ttdoc">BateauVoyageur::getImageBatVoy Méthode publique qui renvoie le chemin qui permet d&amp;#39;atteindre l&amp;#39;image ...</div><div class="ttdef"><b>Definition:</b> <a href="bateauvoyageur_8cpp_source.html#l00068">bateauvoyageur.cpp:68</a></div></div>
+<div class="ttc" id="class_bateau_voyageur_html_ac327b0101a2586190a3afcd639f146cc"><div class="ttname"><a href="class_bateau_voyageur.html#ac327b0101a2586190a3afcd639f146cc">BateauVoyageur::BateauVoyageur</a></div><div class="ttdeci">BateauVoyageur()</div><div class="ttdoc">BateauVoyageur::BateauVoyageur Constructeur vide de la classe BateauVoyageur nécessaire car il y a de...</div><div class="ttdef"><b>Definition:</b> <a href="bateauvoyageur_8cpp_source.html#l00029">bateauvoyageur.cpp:29</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
